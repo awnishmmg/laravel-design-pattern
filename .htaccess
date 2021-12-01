@@ -1,0 +1,6 @@
+RewriteEngine On
+Options -Indexes
+RewriteRule ^(.*)$ public/index.php?url=$1 [L,QSA]
+
+
+
